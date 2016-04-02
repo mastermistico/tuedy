@@ -1,0 +1,84 @@
+/* CSS declarations go here rgba(0,0,0,.04);*/
+body {
+    background-color: #e6ffee 
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar {
+    background-color: #f6f6f6;
+    padding: 3px;
+        padding-top: 3px;
+}
+
+.container {
+	padding-top: 65px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.type-post.hentry {
+    background: none repeat scroll 0 0 #ffffff;
+     border: 1px solid #dadada; 
+     border-radius: 3px; 
+     margin-bottom: 50px; 
+     padding: 10px; 
+}
+
+.main-content-inner {
+	margin-top: 6px;
+    
+}
+
+
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}

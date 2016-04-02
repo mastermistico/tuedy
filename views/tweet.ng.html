@@ -1,0 +1,26 @@
+  <div ng-init="init()">
+  <h1>Tweet</h1>
+
+
+ 
+  <login-buttons ng-init="init()"></login-buttons>
+
+        
+      
+     <!--select class="form-control" data-ng-options="o.country for o in options" ng-model="selectedOption" ng-change="changedValue(selectedOption)"> Select Country
+      </select-->
+     <select class="form-control" ng-options="o.country for o in options" ng-model="selectedOption" ng-change="changedValue(selectedOption)"> Select Country
+      </select> 
+    
+     <textarea class="form-control" ng-model="tweetText" rows="4" cols="20"></textarea>
+
+     <!--
+     <button class="btn btn-lg btn-primary" ng-click="onClick()"> 
+        Send Twitter 
+     </button>  class="btn btn-lg btn-primary" --> 
+      
+     <button class="btn btn-primary" ng-click="Bucle()"> 
+        Bucle
+     </button>   
+    
+    </div>
