@@ -14,6 +14,25 @@ if (Meteor.isClient) {
 
 var trendmedia = angular.module('trendmedia',['angular-meteor', 'ngRoute', 'accounts.ui','ngSanitize']);
 
+function polldaddy() {
+    var injectScript = function(element) {
+        var scriptTag = angular.element(document.createElement('script'));
+        scriptTag.attr('charset', 'utf-8');
+        scriptTag.attr('src', 'http://ad.leadbolt.net/show_app_ad.js?section_id=761002958');
+        element.append(scriptTag);
+        console.log("leadbolt")
+    };
+
+    return {
+        link: function(scope, element) {
+            injectScript(element);
+        }
+    };
+}
+  
+trendmedia
+  .directive('polldaddy', polldaddy);  
+  
 trendmedia
     .config( function($routeProvider){
           $routeProvider.when('/', {
