@@ -161,8 +161,8 @@ if (Meteor.isServer) {
    
 
     var twittervar = {
-        "consumerKey": "c1UTOoezFJbsmTq7oaAYoRWVX",
-        "secret":      "S3SRxfheHoBFsgeeIT3WzHEkMBETHi0DVLc2yt1sKZOK8MsCDi",
+        "consumerKey": "sbSIBiri8iELonsmnzXFr0Aie",
+        "secret":      "DaAs48G2C9eUod2SO4Na24PfkR3CobXYCHtUeOalei8pBoF1Bq",
         "accessToken": null,
         "accessTokenSecret": null
         }
