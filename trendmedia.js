@@ -161,10 +161,10 @@ if (Meteor.isServer) {
    
 
     var twittervar = {
-        "consumerKey": "sbSIBiri8iELonsmnzXFr0Aie",
-        "secret":      "DaAs48G2C9eUod2SO4Na24PfkR3CobXYCHtUeOalei8pBoF1Bq",
-        "accessToken": null,
-        "accessTokenSecret": null
+          'consumer_key': 'sbSIBiri8iELonsmnzXFr0Aie',
+          'consumer_secret': 'DaAs48G2C9eUod2SO4Na24PfkR3CobXYCHtUeOalei8pBoF1Bq',
+          'access_token_key': '2239995774-JzB7K3u4OBFigZSaQjsFOVGXWUilpXQ5R32S11w',
+          'access_token_secret': 'Lrs6nHZZauceRLdge3fCxrxq0DjpEYZexjQe3HeZi38Af'
         }
     
   
