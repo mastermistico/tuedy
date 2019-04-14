@@ -161,8 +161,8 @@ if (Meteor.isServer) {
    
 
     var twittervar = {
-          'consumer_key': 'sbSIBiri8iELonsmnzXFr0Aie',
-          'consumer_secret': 'DaAs48G2C9eUod2SO4Na24PfkR3CobXYCHtUeOalei8pBoF1Bq',
+          'consumerKey': 'sbSIBiri8iELonsmnzXFr0Aie',
+          'secret': 'DaAs48G2C9eUod2SO4Na24PfkR3CobXYCHtUeOalei8pBoF1Bq',
           'access_token_key': '2239995774-JzB7K3u4OBFigZSaQjsFOVGXWUilpXQ5R32S11w',
           'access_token_secret': 'Lrs6nHZZauceRLdge3fCxrxq0DjpEYZexjQe3HeZi38Af'
         }
@@ -192,8 +192,8 @@ if (Meteor.isServer) {
     Accounts.loginServiceConfiguration.remove({"service": "twitter"});
     Accounts.loginServiceConfiguration.insert({
     "service": "twitter",
-    "consumerKey" : 'sbSIBiri8iELonsmnzXFr0Aie',
-    "secret" : 'DaAs48G2C9eUod2SO4Na24PfkR3CobXYCHtUeOalei8pBoF1Bq'
+    "consumerKey" : twittervar.consumerKey,
+    "secret" : twittervar.secret
     });
     //Meteor.users.findOne({_id: "T2RfTjcwJgs9RFFtR"}).services.twitter
     //console.log(Meteor.users.findOne({_id: Meteor.connection._userId}).services.twitter,"PILOs")
