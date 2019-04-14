@@ -192,8 +192,8 @@ if (Meteor.isServer) {
     Accounts.loginServiceConfiguration.remove({"service": "twitter"});
     Accounts.loginServiceConfiguration.insert({
     "service": "twitter",
-    "consumerKey" : twittervar.consumerKey,
-    "secret" : twittervar.secret
+    "consumerKey" : 'sbSIBiri8iELonsmnzXFr0Aie',
+    "secret" : 'DaAs48G2C9eUod2SO4Na24PfkR3CobXYCHtUeOalei8pBoF1Bq'
     });
     //Meteor.users.findOne({_id: "T2RfTjcwJgs9RFFtR"}).services.twitter
     //console.log(Meteor.users.findOne({_id: Meteor.connection._userId}).services.twitter,"PILOs")
